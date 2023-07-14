@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2? family= Belanosima:wght@600;700 & family= Nunito+Sans:wght@400;700 & display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    background-color: #D7CFCA;
+}
+/* inicia barra de navegacion*/
+.header{
+    background-color: #D7CFCA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 5px 10%;
+    position:fixed;
+    top:0;
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+.header .nav_links{
+    list-style: none;
+}
+.header .nav_links li:hover{
+    transform:scale(1.2) ;
+}
+.header .nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav_links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header .nav_links li a:hover{
+    color: #8b3a07c4;
+}
+.header  .btn_inicio button{
+    font-weight: 700;
+    color:black;
+    padding: 9px 25px;
+    background:rgba(255, 255, 255, 0.507);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+.header .btn_inicio button:hover{
+    background-color: #8b3a0742;
+    color: #682e0a;
+    transform: scale(1.1);
+}
+.header .nav_links li h1{
+    font-size: 60px;
+}
+/*fin barra de navegacion*/
+.cuerpo{
+    background-image: url("../img/fondo.jpg") ;
+    height: 750px;
+}
+
+.cuerpo h2{
+    position: relative;
+    top: 150px;
+    color: white;
+    font-size: 50px;
+}
+.cuerpo h3{
+    position: relative;
+    top: 200px;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+}
+.cuerpo a button{
+    position: relative;
+    top: 250px; 
+    width: 200px;
+    height: 50px;
+    background-color:  rgba(255, 255, 255, 0.507);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    border-radius: 50px;   
+}
+.cuerpo a button:hover{
+    background-color: #8b3a0742;
+    color: #682e0a;
+    transform: scale(1.1);
+}
+.acerca{
+    padding: 120px 50px;
+    margin: 50px;
+    background-color: #5c361f7c;;
+    height: 800px;
+}
+.servicios{
+    padding: 120px 50px;
+    margin: 50px;
+    background-color: #5c361f7c;;
+    height: 800px;
+}
+footer{
+    background-color: #42271663;
+    padding: 50px;
+    text-align: center;
+    font-style: oblique;
+}

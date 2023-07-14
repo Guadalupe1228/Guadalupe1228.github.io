@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2? family= Belanosima:wght@600;700 & family= Nunito+Sans:wght@400;700 & display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/fondo.jpg");
+}
+form{
+    position: absolute;
+    min-width: 280px;
+    max-width: 25%;
+    width: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    box-shadow:0 1rem rgb(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1rem);
+    border-radius: 5px;
+    color: #fff;
+}
+h1{
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+}
+h1::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    width: 120px;
+    left: 0;
+    bottom: 0;
+}
+input{
+    display: block;
+    width: 100%;
+    height: 40%;
+    padding: 5px 6px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+}
+.acuerdo{
+   text-align: center; 
+   margin-bottom: 15px;
+   font-size: 15px;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    background-color: #682e0a;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: #8b3a0742;
+    color: #682e0a;
+    transform: scale(1.1);
+}
+.link{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: holder;
+}
+.error{
+    background-color: rgb(165, 64, 64);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
